@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    width: 345px;
+    height: auto;
+    background-color: hsl(216, 50%, 16%);
+    margin: auto;
+    border-radius: 15px;
+}
+
+.container {
+    padding: 25px;
+    position: relative;
+}
+
+.img-main {
+    width: 295px;
+    border-radius: 10px;
+}
+
+.hover-hol {
+    position: absolute;
+    width: 295px;
+    height: 295px;
+    border-radius: 10px;
+}
+
+.hover-hol:hover .img-hover{
+    display: block;
+}
+
+.img-hover {
+    position: absolute;
+    width: 295px;
+    height: 295px;
+    border-radius: 10px;
+    background-color: hsla(178, 100%, 50%, .5);
+    display: none;
+}
+
+.eye {
+    position: absolute;
+    top: 118.5px;
+    left: 125px;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.data img {
+    height: 20px;
+    margin-right: 7px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+}
+
+.time {
+    display: flex;
+    align-items: center;
+}
+
+.artist {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+.artist img {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+
+hr.line {
+    border-top: 1px solid hsl(215, 32%, 27%);
+    border-bottom: 1px solid hsl(216, 50%, 16%);
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 23px;
+    color: hsl(0, 0%, 100%);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.margin-bot {
+    margin-bottom: 15px;
+}
